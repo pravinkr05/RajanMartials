@@ -5,190 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Bihar Buddham Martial Arts Club</title>
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: rgba(255, 228, 196, 0.397);
-    }
-
-    .container {
-      border: 0.1ch solid rgba(190, 190, 190, 0.76);
-      width: 60%;
-      min-height: 100vh;
-      margin: auto;
-      background-color: rgba(242, 245, 248, 0.801);
-    }
-
-    .header img {
-      width: 100%;
-      border-radius: 5px;
-    }
-
-    .home {
-      background-color: rgba(235, 225, 225, 0.747);
-      margin: 10px;
-      padding: 5px 20px;
-    }
-
-    .home a {
-      color: #2e70a7;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    .title-1 {
-      margin: 10px;
-    }
-
-    .title-1 h2 {
-      background-color: rgba(199, 199, 199, 0.651);
-      padding-left: 10px;
-      font-size: 1.4em;
-      line-height: 1.7em;
-      color: #a07b37;
-      border-left: 4px #997d4a solid;
-      animation: slideDown 0.8s ease;
-    }
-
-    .subtitle {
-      background-color: rgba(199, 199, 199, 0.651);
-      padding: 10px;
-      font-size: 0.75em;
-      border-left: 4px #997d4a solid;
-      animation: slideDown 1s ease;
-    }
-
-    /* Moving keywords ticker */
-    .moving-text {
-      margin: 12px 0;
-      overflow: hidden;
-      background: rgba(46, 112, 167, 0.08);
-      border-left: 4px solid #2e70a7;
-      padding: 8px 0;
-    }
-
-    .moving-track {
-      display: inline-flex;
-      white-space: nowrap;
-      animation: tickerMove 18s linear infinite;
-    }
-
-    .moving-track span {
-      margin-right: 50px;
-      font-weight: bold;
-      color: #2e70a7;
-      font-size: 0.95em;
-    }
-
-    .content {
-      padding: 15px;
-      font-size: 0.85em;
-      line-height: 1.8em;
-      color: #333;
-      text-align: justify;
-      animation: fadeUp 1.2s ease;
-    }
-
-    .content ul {
-      margin: 10px 0 15px 20px;
-    }
-
-    .highlight {
-      color: #2e70a7;
-      font-weight: bold;
-    }
-
-    .imgcm {
-      display: flex;
-      justify-content: center;
-      padding: 30px 0;
-    }
-
-    .imgcm img {
-      width: 40%;
-      border-radius: 15px;
-      border: 1px solid #999;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-      animation: floatImage 4s ease-in-out infinite;
-      transition: transform 0.4s ease, box-shadow 0.4s ease;
-    }
-
-    .imgcm img:hover {
-      transform: scale(1.08);
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
-    }
-
-    .bottom {
-      background-color: #f0f0f0d3;
-      text-align: center;
-      padding: 15px;
-      font-size: smaller;
-    }
-
-    .bottom a {
-      color: rgb(211, 149, 55);
-      text-decoration: none;
-      font-size: 0.9em;
-      transition: color 0.3s ease, transform 0.3s ease;
-    }
-
-    .bottom a:hover {
-      color: #2e70a7;
-      transform: translateY(-2px);
-    }
-
-    .v1 {
-      border-left: 3px solid rgba(204, 202, 202, 0.836);
-      height: 25px;
-      margin: 0 10px;
-    }
-
-    .bottom p {
-      margin-top: 10px;
-      font-size: 0.8em;
-    }
-
-    hr {
-      opacity: 0.5;
-    }
-
-    @media (max-width: 800px) {
-      .container { width: 95%; }
-      .imgcm img { width: 80%; }
-    }
-
-    /* Animations */
-    @keyframes slideDown {
-      from { opacity: 0; transform: translateY(-30px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes fadeUp {
-      from { opacity: 0; transform: translateY(25px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-
-    @keyframes floatImage {
-      0% { transform: translateY(0px) scale(1); }
-      50% { transform: translateY(-8px) scale(1.02); }
-      100% { transform: translateY(0px) scale(1); }
-    }
-
-    @keyframes tickerMove {
-      0% { transform: translateX(0%); }
-      100% { transform: translateX(-50%); }
-    }
-  </style>
+  <!-- ABOUT PAGE CSS ONLY -->
+  <link rel="stylesheet" href="../css/about.css">
 </head>
 
 <body>
   <div class="container">
+
     <div class="header">
       <img src="../rajanUpdImg/simpleprofile.jpeg" alt="loading..." />
     </div>
@@ -199,7 +22,10 @@
 
     <div class="title-1">
       <h2>Bihar Buddham Martial Arts Club</h2>
-      <p class="subtitle">A dedicated martial arts training academy focused on discipline, fitness, and self-defense</p>
+
+      <p class="subtitle">
+        A dedicated martial arts training academy focused on discipline, fitness, and self-defense
+      </p>
 
       <div class="moving-text">
         <div class="moving-track">
@@ -220,12 +46,12 @@
       <div class="content">
         Bihar Buddham Martial Arts Club is a dedicated martial arts training academy focused on building discipline,
         physical fitness, self-defense skills, and strong character in students of all age groups.
-        <br /><br />
+        <br><br>
 
         The club is founded and led by <span class="highlight">Martial Rajan</span>, a Black Belt Martial Artist,
         National Gold Medalist, and National Referee, ensuring training is conducted with recognized standards,
         safety, and correct techniques.
-        <br /><br />
+        <br><br>
 
         Our club provides structured and progressive martial arts training that helps students:
         <ul>
@@ -237,7 +63,7 @@
 
         Training programs are designed for kids, teens, and adults, with emphasis on proper fundamentals,
         safety, and continuous improvement.
-        <br /><br />
+        <br><br>
 
         At Bihar Buddham Martial Arts Club, martial arts is taught not only as a sport, but as a way to build
         focus, discipline, and a healthy lifestyle.
@@ -248,25 +74,26 @@
       </div>
     </div>
 
-    <hr />
+    <hr>
 
-     <div class="bottom">
-        <div class="link" >
-          <a href="/index.html">Home</a> <span class="v1"></span>
-          <a href="../html/about.html">About</a>
-          <span class="v1"></span>
-          <a href="../html/admission.html">Admission</a> <span class="v1"></span>
-          <a href="../html/schedule.html">Online Training</a> <span class="v1"></span>
-          <a href="../html/event.html">Program</a> <span class="v1"></span>
-          <a href="../html/master_asia.html">Contact Us</a> <span class="v1"></span>
-          <a href="../html/achievement.html">Achievement</a> 
-          <!-- <a href="html/affiliations.html">Affiliations</a> -->
-        </div>
+    <div class="bottom">
+      <div class="link">
+        <a href="/index.html">Home</a> <span class="v1"></span>
+        <a href="../html/about.html">About</a> <span class="v1"></span>
+        <a href="../html/admission.html">Admission</a> <span class="v1"></span>
+        <a href="../html/schedule.html">Online Training</a> <span class="v1"></span>
+        <a href="../html/event.html">Program</a> <span class="v1"></span>
+        <a href="../html/master_asia.html">Contact Us</a> <span class="v1"></span>
+        <a href="../html/achievement.html">Achievement</a>
+      </div>
+
         <p>
-          Copyright &copy; 2025 - <span id="currentYear">cont...</span>, I.S.I BBMAC
-          - All Rights Reserved.
-        </p>
-      </div> 
+        Copyright &copy; 2025 -
+        <span id="currentYear">cont...</span>,
+        I.S.I BBMAC - All Rights Reserved.
+      </p>
+    </div>
+
   </div>
 </body>
 </html>

@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(255, 228, 196, 0.397);
+}
+
+.container {
+  border: 0.1ch solid rgba(190, 190, 190, 0.76);
+  width: 60%;
+  margin: auto;
+  background-color: rgba(242, 245, 248, 0.801);
+}
+
+/* HEADER */
+.header {
+  border-bottom: 0.1ch solid rgba(190, 190, 190, 0.76);
+  margin: 0 5px;
+}
+
+.header img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* HOME BAR */
+.home {
+  background-color: rgba(235, 225, 225, 0.747);
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.home a {
+  color: #2e70a7;
+  text-decoration: none;
+}
+
+/* TITLE */
+.title-1 {
+  margin: 10px;
+}
+
+.title-1 h2 {
+  background-color: rgba(199, 199, 199, 0.651);
+  padding-left: 10px;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  font-weight: bold;
+  color: #a07b37;
+  border-left: 4px #997d4a solid;
+}
+
+.title-1 .content {
+  padding: 15px;
+  font-size: 0.8em;
+}
+
+/* FOOTER */
+.bottom {
+  background-color: #f0f0f0d3;
+  text-align: center;
+  padding: 15px;
+  font-size: smaller;
+}
+
+.bottom a {
+  color: rgb(211, 149, 55);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.v1 {
+  border-left: 3px solid rgba(204, 202, 202, 0.836);
+  height: 25px;
+  margin: 0 10px;
+}
+
+.bottom p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+/* OLD FORM SUPPORT (kept for future use) */
+iframe {
+  margin-left: 50px;
+  height: 230vh;
+}
+
+.imgsh img {
+  width: 40%;
+  margin-left: 45px;
+  margin-top: 30px;
+  border-radius: 7px;
+  border: 1px solid black;
+}
+
+.form {
+  margin-left: 40px;
+}
+
+/* RESPONSIVE */
+@media (min-width: 800px) and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+  iframe {
+    width: 90%;
+    height: 230vh;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+  .container {
+    width: 90%;
+  }
+  iframe {
+    width: 90%;
+    height: 230vh;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 99%;
+  }
+
+  .imgsh img {
+    width: 35%;
+    margin-left: 30px;
+    margin-top: 25px;
+  }
+
+  iframe {
+    width: 90%;
+    height: 230vh;
+  }
+
+  .form {
+    margin-left: 17px;
+  }
+}

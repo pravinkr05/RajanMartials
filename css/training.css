@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(255, 228, 196, 0.397);
+}
+
+/* CONTAINER */
+.container {
+  border: 0.1ch solid rgba(190, 190, 190, 0.76);
+  width: 60%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: rgba(242, 245, 248, 0.801);
+}
+
+/* HEADER */
+.header {
+  border-bottom: 0.1ch solid rgba(190, 190, 190, 0.76);
+  margin: 0 5px;
+}
+
+.header img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* HOME */
+.home {
+  background-color: rgba(235, 225, 225, 0.747);
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.home a {
+  color: #2e70a7;
+  text-decoration: none;
+}
+
+/* TITLE */
+.title-1 {
+  margin: 10px;
+}
+
+.title-1 h2 {
+  background-color: rgba(141, 123, 123, 0.329);
+  padding-left: 10px;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  font-weight: bold;
+  color: #a07b37;
+  border-left: 4px #997d4a solid;
+}
+
+.title-1 .content {
+  padding: 15px;
+  font-size: 0.8em;
+}
+
+/* TRAINING CARDS */
+.training-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 20px;
+}
+
+.train-card {
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  text-align: center;
+}
+
+.train-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 16px 35px rgba(0,0,0,0.3);
+}
+
+.train-card img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+}
+
+.train-card h3 {
+  margin: 12px 0 5px;
+  color: #8b5a10;
+}
+
+.train-card p {
+  font-size: 0.9em;
+  padding: 0 15px;
+  color: #444;
+}
+
+/* BUTTONS */
+.card-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 25px;
+  font-size: 0.85em;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+.btn.whatsapp {
+  background: #25D366;
+}
+
+.btn.call {
+  background: #007bff;
+}
+
+.btn:hover {
+  opacity: 0.85;
+  transform: scale(1.05);
+}
+
+/* FOOTER */
+.bottom {
+  background-color: #f0f0f0d3;
+  text-align: center;
+  padding: 15px;
+  font-size: smaller;
+}
+
+.bottom a {
+  color: rgb(211, 149, 55);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.v1 {
+  border-left: 3px solid rgba(204, 202, 202, 0.836);
+  height: 25px;
+  margin: 0 10px;
+}
+
+.bottom p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+/* RESPONSIVE */
+@media (min-width: 600px) and (max-width: 1000px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 99%;
+  }
+  .train-card img {
+    height: 200px;
+  }
+}

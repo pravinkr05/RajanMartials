@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgba(255, 228, 196, 0.397);
+}
+
+.container {
+  border: 0.1ch solid rgba(190, 190, 190, 0.76);
+  width: 60%;
+  min-height: 100vh;
+  margin: auto;
+  background-color: rgba(242, 245, 248, 0.801);
+}
+
+/* HEADER */
+.header {
+  border-bottom: 0.1ch solid rgba(190, 190, 190, 0.76);
+  margin: 0 5px;
+}
+
+.header img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* HOME BAR */
+.home {
+  background-color: rgba(235, 225, 225, 0.747);
+  margin: 10px;
+  padding: 5px 20px;
+}
+
+.home a {
+  color: #2e70a7;
+  text-decoration: none;
+}
+
+/* TITLE */
+.title-1 {
+  margin: 10px;
+}
+
+.title-1 h2 {
+  background-color: rgba(199, 199, 199, 0.651);
+  padding-left: 10px;
+  font-size: 1.4em;
+  line-height: 1.8em;
+  font-weight: bold;
+  color: #a07b37;
+  border-left: 4px #997d4a solid;
+}
+
+.title-1 .content {
+  padding: 15px;
+  font-size: 0.8em;
+}
+
+/* CONTENT IMAGES (future use) */
+.content img {
+  width: 40%;
+  margin: 20px 35px;
+  border-radius: 10px;
+}
+
+/* LOGO STRIP (commented section support) */
+.logo {
+  border: 0.1ch solid rgb(63, 98, 214);
+  border-radius: 10px;
+  margin: 0 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  height: 12%;
+  width: 12%;
+  margin: 20px 25px;
+}
+
+/* FOOTER */
+.bottom {
+  background-color: #f0f0f0d3;
+  text-align: center;
+  padding: 15px;
+  font-size: smaller;
+}
+
+.bottom a {
+  color: rgb(211, 149, 55);
+  text-decoration: none;
+  font-size: 0.9em;
+}
+
+.v1 {
+  border-left: 3px solid rgba(204, 202, 202, 0.836);
+  height: 25px;
+  margin: 0 10px;
+}
+
+.bottom p {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
+
+hr {
+  opacity: 0.5;
+}
+
+/* RESPONSIVE */
+@media (min-width: 800px) and (max-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+  .container {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 99%;
+  }
+
+  .content img {
+    width: 60%;
+    margin: 5px 70px;
+  }
+
+  .logo {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .logo img {
+    width: 10%;
+    margin: 15px 13px;
+  }
+}
