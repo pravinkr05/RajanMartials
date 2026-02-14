@@ -191,7 +191,7 @@ header p {
 
 .logo img {
   width: 13%;
-  margin: 10px 15px;
+  margin: 10px 22px;
 }
 
 /* ===============================
@@ -255,6 +255,12 @@ header p {
   .container {
     width: 99%;
   }
+
+  .logo img {
+  width: 13%;
+  /* margin: 10px 22px; */
+  margin: 10px;
+}
 
   header p {
     margin: auto;
