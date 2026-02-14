@@ -290,10 +290,10 @@ header p {
 }
 
 @media only screen and (max-width: 600px) {
-  .logo img{
+  /* .logo img{
     background-color: blueviolet;
    margin: auto;
-    }
+    } */
   .nav img {
     height: 30vh;
   }
