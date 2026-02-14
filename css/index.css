@@ -292,7 +292,7 @@ header p {
 @media only screen and (max-width: 600px) {
   .logo img{
     background-color: blueviolet;
-   margin: 0;
+   margin: auto;
     }
   .nav img {
     height: 30vh;
