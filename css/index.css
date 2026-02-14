@@ -290,10 +290,10 @@ header p {
 }
 
 @media only screen and (max-width: 600px) {
-  .logo,
-  .container {
-    width: 100%;
-  }
+  .logo {
+    padding-left: 10px;
+    padding-right: 10px;
+    }
   .nav img {
     height: 30vh;
   }
