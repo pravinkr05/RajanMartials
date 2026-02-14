@@ -191,7 +191,7 @@ header p {
 
 .logo img {
   width: 13%;
-  margin: 10px 22px;
+  margin: 10px 15px;
 }
 
 /* ===============================
@@ -253,7 +253,7 @@ header p {
   .nav,
   .logo,
   .container {
-    width: 90%;
+    width: 99%;
   }
 
   header p {
@@ -290,10 +290,7 @@ header p {
 }
 
 @media only screen and (max-width: 600px) {
-  /* .logo img{
-    background-color: blueviolet;
-   margin: auto;
-    } */
+ 
   .nav img {
     height: 30vh;
   }
