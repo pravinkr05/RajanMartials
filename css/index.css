@@ -253,13 +253,13 @@ header p {
   .nav,
   .logo,
   .container {
-    width: 99%;
+    width: 97%;
   }
 
   .logo img {
   width: 13%;
   /* margin: 10px 22px; */
-  margin: 10px;
+  margin: 15px;
 }
 
   header p {
